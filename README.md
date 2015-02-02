@@ -183,7 +183,7 @@ add this line at the end of the list:
 Now, we can run chsh command:
 
 ```bash
-$ chsh -s /usr/local/bin/bash YOUR_NAME # ex. for me this was jessica
+$ chsh -s /usr/local/bin/bash YOUR_NAME # ex. for me this was moxiegirl
 ```
 
 Enter your password to proceed. Now you can restart Terminal.app and check if the installation is correct:
@@ -262,13 +262,13 @@ We'll come back to the details of that later, but for now, just download the fil
 
 ```bash
 $ cd ~
-$ curl -O https://raw2.github.com/jfrazelle/mac-dev-setup/master/.bash_profile
-$ curl -O https://raw2.github.com/jfrazelle/mac-dev-setup/master/.helpers
-$ curl -O https://raw2.github.com/mathiasbynens/dotfiles/master/.aliases
-$ curl -O https://raw2.github.com/mathiasbynens/dotfiles/master/.bash_prompt
-$ curl -O https://raw2.github.com/mathiasbynens/dotfiles/master/.exports
-$ curl -O https://raw2.github.com/mathiasbynens/dotfiles/master/.functions
-$ curl -O https://raw2.github.com/mathiasbynens/dotfiles/master/.inputrc
+$ curl -O https://raw.githubusercontent.com/jfrazelle/mac-dev-setup/master/.bash_profile
+$ curl -O https://raw.githubusercontent.com/jfrazelle/mac-dev-setup/master/.helpers
+$ curl -O https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/.aliases
+$ curl -O https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/.bash_prompt
+$ curl -O https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/.exports
+$ curl -O https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/.functions
+$ curl -O https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/.inputrc
 ```
 
 At this point you can also change your computer's name, which shows up in this terminal prompt. If you want to do so, go to **System Preferences** > **Sharing**. For example, I changed mine from "Jess's MacBook Pro" to just "Jess-MacBook-Pro", so it shows up as `Jess-MacBook-Pro` in the terminal.
@@ -328,7 +328,7 @@ Let's set up some basic configuration. Download the [.gitconfig](/mathiasbynens/
 
 ```bash
 $ cd ~
-$ curl -O https://raw2.github.com/mathiasbynens/dotfiles/master/.gitconfig
+$ curl -O https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/.gitconfig
 ```
 
 It will add some color to the `status`, `branch`, and `diff` Git commands, as well as a couple aliases. Feel free to take a look at the contents of the file, and add to it to your liking.

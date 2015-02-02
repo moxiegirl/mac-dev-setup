@@ -183,7 +183,7 @@ add this line at the end of the list:
 Now, we can run chsh command:
 
 ```bash
-$ chsh -s /usr/local/bin/bash YOUR_COMPUTERS_NAME # ex. for me this was macinator
+$ chsh -s /usr/local/bin/bash YOUR_NAME # ex. for me this was jessica
 ```
 
 Enter your password to proceed. Now you can restart Terminal.app and check if the installation is correct:
